@@ -5,8 +5,17 @@ pom.xml.asc
 /classes/
 /target/
 /checkouts/
+/logs
+/*.log
+/out
+/dist
+/build
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/
 .lein-failures
 .nrepl-port
+/.idea
+/*.iml
+*~
+/*.pom
