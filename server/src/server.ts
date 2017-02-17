@@ -122,10 +122,10 @@ connection.onCompletion((textDocumentPosition: TextDocumentPositionParams): Comp
 connection.onCompletionResolve((item: CompletionItem): CompletionItem => {
 	if (item.data === 1) {
 		item.detail = 'TypeScript details',
-		item.documentation = 'TypeScript documentation'
+		item.documentation = 'TypeScript documentation <a>so cool~</a>'+helloclj.hello()
 	} else if (item.data === 2) {
 		item.detail = 'JavaScript details',
-		item.documentation = 'JavaScript documentation'
+		item.documentation = 'JavaScript documentation'+helloclj.hello()
 	}
 	return item;
 });
