@@ -8,9 +8,13 @@
                  "maven"   {:url "http://repo1.maven.org/maven2/"}}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.473"]]
-  :plugins [[lein-cljsbuild "1.1.5"]]
+                 
+  :plugins [[lein-cljsbuild "1.1.5"]
+            [lein-npm "0.6.2"]]
 
   :hooks [leiningen.cljsbuild]
+
+  :npm {:dependencies ["vscode-languageserver": "^3.0.4"]}
     
   :cljsbuild {:builds {:main {:source-paths ["src"] 
                               :target :nodejs
