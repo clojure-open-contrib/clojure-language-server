@@ -8,4 +8,4 @@
                  "maven"   {:url "http://repo1.maven.org/maven2/"}}
   :main clojure-language-server.core
   :aot [clojure-language-server.core]
-  :dependencies [[org.clojure/clojure "1.8.0"]])
+  :dependencies [[org.clojure/clojurescript "1.9.473"]])
