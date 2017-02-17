@@ -1,8 +1,8 @@
 {
-  "name": "language-server-example",
-  "description": "Example implementation of a language server in node.",
+  "name": "clojure-language-server",
+  "description": " Implementation of a clojure-language server in node,cljs and typescript.",
   "version": "0.0.1",
-  "author": "Microsoft Corporation",
+  "author": "blankrain",
   "license": "MIT",
   "engines": {
     "node": "*"

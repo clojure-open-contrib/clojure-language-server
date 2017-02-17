@@ -1,3 +1,5 @@
+## How to develop ?
+
 vscode默认支持node,所以用了javascript相关的语言.
 然后就来了一套,cljs 与  TypeScript 混搭开发.
 
@@ -21,6 +23,7 @@ client 与server 有参看 [官网Node示例](https://github.com/Microsoft/vscod
 
 4. `cd ..  && lein deps`
 
+*可能会出现tsc 找不到的情况,用这个解决`npm install -g typescript`*
 
 #### 如果使用cljs开发,
 5. `code .  `  

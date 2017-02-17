@@ -1,7 +1,7 @@
 {
-  "name": "language-client-example",
-  "description": "VSCode part of a language server",
-  "author": "Microsoft Corporation",
+  "name": "clojure-language-client",
+  "description": "VSCode part of a clojure-language server",
+  "author": "blankrain",
   "license": "MIT",
   "version": "0.0.1",
   "publisher": "vscode",
