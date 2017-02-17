@@ -5,7 +5,7 @@
   :mirrors {"central" {:name "central"
                        :url "http://maven.aliyun.com/nexus/content/groups/public"}}
   :repositories {"aliyun" {:url "http://maven.aliyun.com/nexus/content/groups/public"}
-                 "maven"   {:url "http://repo1.maven.org/maven2/"} }
+                 "maven"   {:url "http://repo1.maven.org/maven2/"}}
   :main clojure-language-server.core
   :aot [clojure-language-server.core]
   :dependencies [[org.clojure/clojure "1.8.0"]])

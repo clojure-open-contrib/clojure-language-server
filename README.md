@@ -5,3 +5,5 @@ Clojure的vscode的language server，实现language server protocol，暂时没�
 # References
 
 * see Wiki
+
+vscode 默认支持 node,所以就用cljs了. 
