@@ -13,7 +13,7 @@
   :hooks [leiningen.cljsbuild]
     
   :cljsbuild {:builds {:main {:source-paths ["src"] 
-                              :jar true
+                              :target :nodejs
                               :compiler {:output-to "out/cljs.js"
                                          :optimizations :simple
                                          :pretty-print true}}}})
