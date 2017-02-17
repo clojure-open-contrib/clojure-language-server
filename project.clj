@@ -10,11 +10,12 @@
                  [org.clojure/clojurescript "1.9.473"]]
                  
   :plugins [[lein-cljsbuild "1.1.5"]
-            [lein-npm "0.6.2"]]
+            ;[lein-npm "0.6.2"]
+            ]
 
   :hooks [leiningen.cljsbuild]
 
-  :npm { :dependencies ["vscode-languageserver"  "^3.0.4"]}
+  ;:npm { :dependencies ["vscode-languageserver"  "^3.0.4"]}
     
   :cljsbuild {:builds {:main {:source-paths ["src"] 
                               :target :nodejs
