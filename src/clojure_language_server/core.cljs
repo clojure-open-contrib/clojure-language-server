@@ -3,3 +3,6 @@
 (enable-console-print!)
 
 (println "Hello world!")
+
+(defn hello [] 
+    "world")
