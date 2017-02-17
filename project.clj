@@ -14,11 +14,11 @@
 
   :hooks [leiningen.cljsbuild]
 
-  :npm {:dependencies ["vscode-languageserver": "^3.0.4"]}
+  :npm { :dependencies ["vscode-languageserver"  "^3.0.4"]}
     
   :cljsbuild {:builds {:main {:source-paths ["src"] 
                               :target :nodejs
-                              :compiler {:output-to "out/cljs.js"
+                              :compiler {:output-to "clojure-language-client/clojure-server/server.js"
                                          :optimizations :simple
                                          :pretty-print true}}}})
     
