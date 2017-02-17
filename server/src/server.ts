@@ -12,8 +12,7 @@ import {
 	CompletionItem, CompletionItemKind
 } from 'vscode-languageserver';
 
-var x=require("./clj.js")
-console.log(x.hello())
+var helloclj=require("./clj.js")
 // Create a connection for the server. The connection uses Node's IPC as a transport
 let connection: IConnection = createConnection(new IPCMessageReader(process), new IPCMessageWriter(process));
 
@@ -84,7 +83,7 @@ function validateTextDocument(textDocument: TextDocument): void {
 					start: { line: i, character: index},
 					end: { line: i, character: index + 10 }
 				},
-				message: `${line.substr(index, 10)} should be spelled Clojure`,
+				message: `${line.substr(index, 10)} should be spelled Clojure ${helloclj.hello()}`,
 				source: 'ex'
 			});
 		}
