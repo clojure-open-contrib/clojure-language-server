@@ -18,7 +18,8 @@
     
   :cljsbuild {:builds {:main {:source-paths ["src"] 
                               :target :nodejs
-                              :compiler {:output-to "clojure-language-client/clojure-server/server.js"
+                              :source-map true
+                              :compiler {:output-to "client/server/clj.js"
                                          :optimizations :simple
                                          :pretty-print true}}}})
     
