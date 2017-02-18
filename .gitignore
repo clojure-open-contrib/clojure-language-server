@@ -19,5 +19,3 @@ pom.xml.asc
 /*.iml
 *~
 /*.pom
-/*.iml
-node_modules
